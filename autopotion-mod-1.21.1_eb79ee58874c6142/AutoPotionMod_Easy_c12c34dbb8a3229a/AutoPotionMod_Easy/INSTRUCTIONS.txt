@@ -1,0 +1,22 @@
+=== EASY UPLOAD INSTRUCTIONS ===
+
+STEP 1: Upload all these files to GitHub
+- Just drag and drop all files from this folder to GitHub
+- Click "Commit changes"
+
+STEP 2: Add the build workflow (REQUIRED for automatic building!)
+After uploading:
+1. Click "Create new file" button
+2. In the filename box, type EXACTLY: .github/workflows/build.yml
+   (GitHub will automatically create the folders when you type the /)
+3. Copy ALL the content from BUILD_WORKFLOW.yml file
+4. Paste it into the file editor
+5. Click "Commit new file"
+
+STEP 3: Check it's working
+- Go to "Actions" tab
+- You should see "Build Mod" workflow running!
+- Wait for green checkmark
+- Download your mod from Artifacts
+
+That's it! No hidden folders needed!
