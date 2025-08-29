@@ -33,4 +33,4 @@ This mod is designed for single-player use only. Using automation mods in multip
 
 ## License
 MIT License
-Test build trigger
+Build test - triggering workflow
