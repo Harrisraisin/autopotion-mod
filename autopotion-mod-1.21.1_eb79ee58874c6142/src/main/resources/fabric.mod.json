@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "autopotion",
+  "version": "1.0.0",
+  "name": "Auto Potion",
+  "description": "Automatically uses health potions when health is low (Single-player only)",
+  "authors": [
+    "Your Name"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/autopotion/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.autopotion.AutoPotionMod"
+    ]
+  },
+  "mixins": [
+    "autopotion.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric": "*",
+    "minecraft": "1.21.1"
+  }
+}
